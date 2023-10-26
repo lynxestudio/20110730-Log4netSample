@@ -1,6 +1,0 @@
-c:\documents and settings\administrator\my documents\visual studio 2010\Projects\Samples.Logging\Samples.Logging.Server\bin\Debug\Samples.Logging.Server.exe.config
-c:\documents and settings\administrator\my documents\visual studio 2010\Projects\Samples.Logging\Samples.Logging.Server\bin\Debug\Samples.Logging.Server.exe
-c:\documents and settings\administrator\my documents\visual studio 2010\Projects\Samples.Logging\Samples.Logging.Server\bin\Debug\Samples.Logging.Server.pdb
-c:\documents and settings\administrator\my documents\visual studio 2010\Projects\Samples.Logging\Samples.Logging.Server\obj\x86\Debug\ResolveAssemblyReference.cache
-c:\documents and settings\administrator\my documents\visual studio 2010\Projects\Samples.Logging\Samples.Logging.Server\obj\x86\Debug\Samples.Logging.Server.exe
-c:\documents and settings\administrator\my documents\visual studio 2010\Projects\Samples.Logging\Samples.Logging.Server\obj\x86\Debug\Samples.Logging.Server.pdb
