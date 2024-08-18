@@ -16,14 +16,10 @@ La arquitectura de Log4net puede resumirse en tres clases principales cada una e
 Para más información consultar http://logging.apache.org/log4j/1.2/manual.html aunque es para log4j la arquitectura es idéntica a log4net.
 Como ejemplo del uso de log4net vamos a crear dos programas un cliente y un servidor los cuales se comunicarán entre sí, la clase ServerProgram es un servidor TCP que escucha en el puerto 6060 y la clase Program que es el cliente que al conectarse con el servidor, le solicita al usuario el nombre de un archivo de texto el cuál sera leído y cada línea de texto será enviada hacia el servidor. El programa cliente implementa todo el código básico para el manejo del logging con log4net.
 </p>
-<div>Código de la clase ServerProgram</div>
-<img src="ServerProgram.png">
-<div>Código de la clase Program (cliente)</div>
-<img src="LogginClient.png">
 <div>El archivo de configuración App.config en donde van las opciones de configuración de Log4net</div>
-<img src="Appconfig.png">
+<img src="images/Appconfig.png">
 <div>En el archivo de configuración utilizamos el declarado en la siguiente sección</div>
-<img src="logconfig.png">
+<img src="images/logconfig.png">
 <div>Declaración del componente principal para implementar los métodos del Logger.</div>
 <pre>
 static readonly log4net.ILog log = log4net.LogManager.GetLogger(
@@ -40,14 +36,14 @@ log.Error(ex.Message, ex);
 log.Info("Ejecutando la aplicación en " + DateTime.Now.ToLongTimeString());
 </pre>
 <div>Compilando los programas:</div>
-<img src="log1.png">
+<img src="images/log1.png">
 <div>Ejecutando el servidor</div>
-<img src="log2.png">
+<img src="images/log2.png">
 <div>Ejecutando el cliente</div>
-<img src="log3.png">
+<img src="images/log3.png">
 <div>Generando excepción de formato</div>
-<img src="log4.png">
+<img src="images/log4.png">
 <div>Generando excepción de comunicación</div>
-<img src="log5.png">
+<img src="images/log5.png">
 <div>Revisando el archivo de log, creado por log4net</div>
-<img src="log6.png">
+<img src="images/log6.png">
