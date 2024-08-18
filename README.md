@@ -1,4 +1,4 @@
-# Entendiendo Logging en Aplicaciones .NET con Log4net
+# Logging en Aplicaciones .NET con Log4net
 <p align="justify">
 Esta entrada se relaciona con esta entrada anterior, que trata también sobre el tema de Logging.
 Log4net es opción altamente recomendable para la implementación del logging en las aplicaciones desarrolladas para .NET. Sobre todo cuando se necesita una solución más configurable y robusta que la proporcionada por las clases del ensamblado System.Diagnostics, que en comparación con log4net están en un nivel elemental, si necesitamos una herramienta que soporte diferentes fuentes de persistencia, que no afecte el desempeño de las aplicaciones y que sea transportable entre la implementación .NET de Microsoft y la del proyecto Mono.
